@@ -1,0 +1,31 @@
+Follow these steps to create and integrate a new branch. 
+
+1. Navigate to the repository file in the GitBash console. 
+
+2. Create a branch with your name.
+git checkout -b <name>
+
+3. Compare status of your new branch to main.
+git status
+
+4. Add changes to branch.
+git add .
+
+5. Make sure your change is correct. 
+git status
+
+6. Once your happy with changes, commit them.
+git commit -m "commit here"
+
+7. Push changes to repository for merge consideration. 
+git push --set-upstream origin <name of your branch>
+
+8. Check and manage the merge request on GitHub.
+
+9. Delete branch after successful merge on both GitHub and GitBash
+	a. navigate to the main branch
+	b. git branch -d <name>
+
+10. Pull the new updated repository if need be. Not needed to complete previous merge.  
+git pull
+
