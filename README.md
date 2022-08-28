@@ -14,6 +14,14 @@ A Kaggle dataset of over five thousand people, which has already been slightly p
 
 ## Data cleaning and exploratory analysis 
 
+* healthcare-dataset-stroke-data.csv was read into Data Extraction.ipynb as a Pandas DataFrame
+* Columns where the BMI value was "NaN" were dropped from the DataFrame
+* Columns where the data values were strings were encoded into numerical form, both manually and through the Pandas get_dummies() method
+* The names for the dummy columns were simplified
+* To find the youngest stroke patient in the dataset, we filtered the DataFrame for ages below certain thresholds, until we determined that there was only one stroke patient below the age of 20
+* We decided that any data for non-adult individuals may be redundant for our analysis, since there was only one child who had a stroke, so we filtered the DataFrame for individuals above the age of 17
+* The DataFrame of only adults was exported to adult.csv
+
 ## Questions
 
 ## Communication protocol among team members
