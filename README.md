@@ -24,6 +24,10 @@ A Kaggle dataset of over five thousand people, which has already been slightly p
 
 ## Questions
 
+* Can we create a machine learning model that can accurately predict a possible stroke?
+* Which category of variable is the best predictor of a stroke (cardiovascular, employment, housing, smoking)?
+* Can we predict a stroke based on an individual's BMI?
+
 ## Communication protocol among team members
 
 - Meet at arranged times using Discord to collaborate
