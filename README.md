@@ -44,4 +44,4 @@ At the conclusion of segment 1 of this project we have tried several different m
 
 We plan on intergrating our data frame into postgressSQL. This is the initial rough draft of our EBD. 
 
-![EDB](images/stroke_edb_rough.png)
+![EDN](images/EDNsecond.png)
