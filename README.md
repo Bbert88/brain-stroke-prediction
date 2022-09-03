@@ -36,9 +36,13 @@ A Kaggle dataset of over five thousand people, which has already been slightly p
 
 - Use Bootcamp class time to collaborate
 
-## Provisional machine learning model
+## Machine Learning Segment 1
 
 At the conclusion of segment 1 of this project we have tried several different machine learning models with this dataset (RandomForestClassifier, BalancedRandomForestClassifier, LogisticRegression, and Neural Network). It appears we will be picking Neural Networks as this model has given us the highest accuracy thus far, but that could be subject to change pending any developments. A challenge we are working on is the prevelance of the "False Negatives" which all models we tested have. When predicting a Stroke, a false negative result is not desired. After running the Neural Network model on the dataset which was encoded w/ pd.get_dummies, we ran it again using the OneHotEncoder to encode the categorical values. The get_dummies provided a higher accuracy and lower loss than the data which was encoded with OneHotEncoder. Additionally, using the RandomForest model, we were able to graph the feature importances which was informative. 
+
+## Machine Learning Segment 2
+
+Due to the issues involving the prevalence of False Negatives, we revisited the data preprocessing stage. False negatives, when predicting strokes, are not an acceptable outcome. We binned the "age", "avg_glucose_level", "bmi" columns and then applied OneHotEncoder to each and merged them back in to the dataframe. We then re-ran the algorithms (RandomForestClassifier, LogisticRegression, and Neural Network). The performance improved slightly, but the issues with the false negative was still there. At this point, in lieu of binning/applying OHE to the "age", "avg_glucose_level", "bmi" columns we decided to scale them using StandardScaler. This was done due to the documented research which shows the practice of OneHotEncoding values is not ideal for tree based models at it can skew the branches towards the 0's. Once this was completed, we then checked the balance and saw the "y" values were heavily imbalanced, with many more 0's (no stroke) than 1's (stroke). To combat this, we used the SMOTE oversampling method. Once the X,y values were resampled and balanced, we split the dataset using TrainTestSplit. We then implented the RandomForestClassifier which showed promising results after examining the confusion matrix, accuracy, precision, recall, and sensitivity scores. Also of note, is that after graphing the feature importances it was discovered the "never_worked" column held no significance so this column was removed. We then implemented the LogisticRegression and Neural Network models we built, also with improved results, however the RandomForest performed the best. Due to all of this, we will be using the RandomForest model which showed superior predictability and performance. See code [here](./ML_smote.ipynb).
 
 ## Database integration
 
