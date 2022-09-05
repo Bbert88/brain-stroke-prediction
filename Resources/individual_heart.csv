@@ -1,0 +1,13 @@
+-- Joining individual and cardiovascular tables
+SELECT individual.id,
+	individual.age,
+	individual.gender,
+	cardiovascular.stroke,
+	cardiovascular.bmi,
+	cardiovascular.avg_glucose_level,
+	cardiovascular.hypertension,
+	cardiovascular.heart_disease
+FROM individual    
+FULL JOIN cardiovascular    
+ON individual.id = cardiovascular.id;   
+
