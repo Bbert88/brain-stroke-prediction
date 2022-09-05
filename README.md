@@ -57,3 +57,7 @@ We have used a mix of Amazon Web Services and pgAdmin to host and manage out dat
 We will use Tableau public for our dashboard to provide readers with an optimal way to process and vizualize variables. 
 
 ![Tableau Example](images/tab_sample.png)
+
+## Presentation
+
+https://docs.google.com/presentation/d/1-EMkQBdRliM5cLLdU_7Ve7CPMNUqh6q24eofqfjCJfs/edit?usp=sharing
