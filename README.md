@@ -48,6 +48,12 @@ While attempting to create visualizations of our data in Tableau using the indiv
 
 ## Database integration
 
-We plan on intergrating our data frame into PostgreSQL. This is the initial rough draft of our EBD. 
+We have used a mix of Amazon Web Services and pgAdmin to host and manage out database. 
 
 ![EDN](images/EDNsecond.png)
+
+## Dashboard
+
+We will use Tableau public for our dashboard to provide readers with an optimal way to process and vizualize variables. 
+
+![Tableau Example](images/tab_sample.png)
