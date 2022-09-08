@@ -61,3 +61,7 @@ We will use Tableau public for our dashboard to provide readers with an optimal 
 ## Presentation
 
 https://docs.google.com/presentation/d/1-EMkQBdRliM5cLLdU_7Ve7CPMNUqh6q24eofqfjCJfs/edit?usp=sharing
+
+## Citations
+example
+Folkman, T. (2020, July 10). Why is Python better than Excel for Data analytics? Educative: Interactive Courses for Software Developers. Retrieved May 1, 2022, from https://www.educative.io/edpresso/why-is-python-better-than-excel-for-data-analytics
