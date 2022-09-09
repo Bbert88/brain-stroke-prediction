@@ -1,3 +1,14 @@
+# Add Folders
+Segment1
+Segment2
+
+# Add Files
+dataframes.ipynb
+Stats and Figures.ipynb
+Presentation.pdf
+requirements.txt
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
