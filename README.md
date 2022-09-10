@@ -60,6 +60,8 @@ We used Tableau public for our dashboard to provide readers with an optimal way 
 
 Our Data Overview page features interactive, filterable charts showing the prevalence of stroke, heart disease, and hypertension in certain categories of patients, as well as their gender ratio and average BMI and glucose level. The user can select one or more filters for each of the features, and age range can be selected using a slider. The filters can be reset by clicking on the brain in the top left corner.
 
+![Data Overview Example](images/data_overview_sample.png)
+
 ## Presentation
 
 https://docs.google.com/presentation/d/1-EMkQBdRliM5cLLdU_7Ve7CPMNUqh6q24eofqfjCJfs/edit?usp=sharing
