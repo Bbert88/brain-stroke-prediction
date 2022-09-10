@@ -28,14 +28,6 @@ A Kaggle dataset of over five thousand people, which has already been slightly p
 * Which category of variable is the best predictor of a stroke (cardiovascular, employment, housing, smoking)?
 * Can we predict a stroke based on an individual's BMI?
 
-## Communication protocol among team members
-
-- Meet at arranged times using Discord to collaborate
-
-- Slack ideas/questions during off hours
-
-- Use Bootcamp class time to collaborate
-
 ## Machine Learning Segment 1
 
 At the conclusion of segment 1 of this project we have tried several different machine learning models with this dataset (RandomForestClassifier, BalancedRandomForestClassifier, LogisticRegression, and Neural Network). It appears we will be picking Neural Networks as this model has given us the highest accuracy thus far, but that could be subject to change pending any developments. A challenge we are working on is the prevelance of the "False Negatives" which all models we tested have. When predicting a Stroke, a false negative result is not desired. After running the Neural Network model on the dataset which was encoded w/ pd.get_dummies, we ran it again using the OneHotEncoder to encode the categorical values. The get_dummies provided a higher accuracy and lower loss than the data which was encoded with OneHotEncoder. Additionally, using the RandomForest model, we were able to graph the feature importances which was informative. 
@@ -46,6 +38,14 @@ Due to the issues involving the prevalence of False Negatives, we revisited the 
 
 While attempting to create visualizations of our data in Tableau using the individual CSV files for feature categories (cardiovascular, housing, etc.) we discovered that there were potential outliers or incorrect data entries for BMI, as there was a few individuals with a BMI over 80 and at least one over 90, which seems physically impossible. This may be of interest to us for further data cleaning.
 
+# Machine Learning Model Scores
+
+* Training score: 1.0
+* Testing score: 0.943
+* Precision: 0.916
+* Sensitivity: 0.974
+* F1: 0.944
+
 ## Database integration
 
 We have used a mix of Amazon Web Services and pgAdmin to host and manage out database. 
@@ -54,9 +54,11 @@ We have used a mix of Amazon Web Services and pgAdmin to host and manage out dat
 
 ## Dashboard
 
-We will use Tableau public for our dashboard to provide readers with an optimal way to process and vizualize variables. 
+We used Tableau public for our dashboard to provide readers with an optimal way to process and vizualize variables. 
 
 ![Tableau Example](images/tab_sample.png)
+
+Our Data Overview page features interactive, filterable charts showing the prevalence of stroke, heart disease, and hypertension in certain categories of patients, as well as their gender ratio and average BMI and glucose level. The user can select one or more filters for each of the features, and age range can be selected using a slider. The filters can be reset by clicking on the brain in the top left corner.
 
 ## Presentation
 
