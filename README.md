@@ -42,6 +42,7 @@ While attempting to create visualizations of our data in Tableau using the indiv
 
 * Training score: 1.0
 * Testing score: 0.943
+  * This represents the accuracy of the model. An accuracy score of 94% is quite impressive and is acceptable for this model and its purpose of predicting strokes in patients.
 * Precision: 0.916
 * Sensitivity: 0.974
 * F1: 0.944
