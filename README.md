@@ -67,5 +67,7 @@ Our Data Overview page features interactive, filterable charts showing the preva
 https://docs.google.com/presentation/d/1-EMkQBdRliM5cLLdU_7Ve7CPMNUqh6q24eofqfjCJfs/edit?usp=sharing
 
 ## Citations
-example
+example draft, all citations need proper formating
 Folkman, T. (2020, July 10). Why is Python better than Excel for Data analytics? Educative: Interactive Courses for Software Developers. Retrieved May 1, 2022, from https://www.educative.io/edpresso/why-is-python-better-than-excel-for-data-analytics
+
+(https://www.mayoclinic.org/diseases-conditions/high-blood-pressure/symptoms-causes/syc-20373410)
