@@ -68,7 +68,12 @@ Our Data Overview page features interactive, filterable charts showing the preva
 https://docs.google.com/presentation/d/1-EMkQBdRliM5cLLdU_7Ve7CPMNUqh6q24eofqfjCJfs/edit?usp=sharing
 
 ## Citations
-example draft, all citations need proper formating
-Folkman, T. (2020, July 10). Why is Python better than Excel for Data analytics? Educative: Interactive Courses for Software Developers. Retrieved May 1, 2022, from https://www.educative.io/edpresso/why-is-python-better-than-excel-for-data-analytics
 
-(https://www.mayoclinic.org/diseases-conditions/high-blood-pressure/symptoms-causes/syc-20373410)
+Fedesoriano. “Stroke Prediction Dataset.” Kaggle, 26 Jan. 2021, Retrieved September 10, 2022, from
+https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset. 
+
+“About Stroke.” Centers for Disease Control and Prevention, Centers for Disease Control and Prevention, 4 May 2022, Retrieved September 10, 2022, from
+https://www.cdc.gov/stroke/about.htm. 
+
+Mayo Foundation for Medical Education and Research. (2021, July 1). High blood pressure (hypertension). Mayo Clinic. Retrieved September 10, 2022, from https://www.mayoclinic.org/diseases-conditions/high-blood-pressure/symptoms-causes/syc-20373410
+
