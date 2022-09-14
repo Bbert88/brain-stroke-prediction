@@ -57,6 +57,8 @@ We have used a mix of Amazon Web Services and pgAdmin to host and manage out dat
 
 We used Tableau public for our dashboard to provide readers with an optimal way to process and vizualize variables. 
 
+### See Final Tableau Story [here](https://public.tableau.com/app/profile/bill5056/viz/StrokeAnalysis_16631154038070/Stroke)
+
 ![Tableau Example](images/tab_sample.png)
 
 Our Data Overview page features interactive, filterable charts showing the prevalence of stroke, heart disease, and hypertension in certain categories of patients, as well as their gender ratio and average BMI and glucose level. The user can select one or more filters for each of the features, and age range can be selected using a slider. The filters can be reset by clicking on the brain in the top left corner.
