@@ -77,3 +77,4 @@ https://www.cdc.gov/stroke/about.htm.
 
 Mayo Foundation for Medical Education and Research. (2021, July 1). High blood pressure (hypertension). Mayo Clinic. Retrieved September 10, 2022, from https://www.mayoclinic.org/diseases-conditions/high-blood-pressure/symptoms-causes/syc-20373410
 
+Sherwood, L., &amp; Ward, C. (2021). Human physiology: From cells to systems. Nelson. 
