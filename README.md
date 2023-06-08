@@ -49,7 +49,7 @@ While attempting to create visualizations of our data in Tableau using the indiv
 
 ## Database integration
 
-We have used a mix of Amazon Web Services and pgAdmin to host and manage out database. 
+We have used a mix of Amazon Web Services and pgAdmin to host and manage our database. 
 
 ![EDN](images/EDNsecond.png)
 
